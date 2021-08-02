@@ -33,17 +33,15 @@ h6 {
   font-weight: bold;
   color: black;
 }
+/*
+em {
+color: map-get( $emphasis-font, "italics" );
+}
 
-//////////////////////////////////////////////////
-// em {                                         //
-// color: map-get( $emphasis-font, "italics" ); //
-// }                                            //
-//                                              //
-// strong {                                     //
-// color: map-get( $emphasis-font, "bold" );    //
-// }                                            //
-//////////////////////////////////////////////////
-
+strong {
+color: map-get( $emphasis-font, "bold" );
+}
+*/
 h1 {
   margin-top: 0;
   font-size: $h-size-1;
