@@ -1,11 +1,11 @@
 {
-  "name": "minimal-mistakes",
+  "name": "minimal-mistakes-jekyll-terminal-skins",
   "private": true,
   "version": "4.24.0",
   "description": "Minimal Mistakes 2 column Jekyll theme.",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mmistakes/minimal-mistakes.git"
+    "url": "git://github.com/simtuzi1/minimal-mistakes.git"
   },
   "keywords": [
     "jekyll",

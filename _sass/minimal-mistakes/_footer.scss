@@ -14,16 +14,18 @@
   animation: $intro-transition;
   -webkit-animation-delay: 0.45s;
   animation-delay: 0.45s;
-  background-color: $footer-background-color;
-
+  border-bottom: solid 2em $background-color;
   footer {
     @include clearfix;
+    -webkit-appearance: none;
+    -moz-appearance: none;
     margin-left: auto;
     margin-right: auto;
     margin-top: 2em;
     max-width: 100%;
-    padding: 0 1em 2em;
-
+   background-color: $body-color;
+   padding: 0 1em 2em;
+    border-left: solid 0.2em $gray;
     @include breakpoint($x-large) {
       max-width: $x-large;
     }

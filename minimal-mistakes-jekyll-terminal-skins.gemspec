@@ -1,7 +1,7 @@
 # coding: utf-8
 
 Gem::Specification.new do |spec|
-  spec.name                    = "minimal-mistakes-jekyll"
+  spec.name                    = "minimal-mistakes-jekyll-terminal-skins"
   spec.version                 = "4.24.0"
   spec.authors                 = ["Michael Rose"]
 

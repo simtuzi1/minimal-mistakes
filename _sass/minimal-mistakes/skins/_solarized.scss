@@ -1,0 +1,52 @@
+/* ==========================================================================
+   Gruvbox skin
+   ========================================================================== */
+
+/* Colors */
+$gray                       : #fbf1c7 !default;
+$dark-gray                  : mix(#ebdbb2, $gray, 40%) !default;
+$darker-gray                : mix(#d5c4a1, $gray, 60%) !default;
+$light-gray                 : mix(#bdae93, $gray, 50%) !default;
+$lighter-gray               : mix(#a89984, $gray, 90%) !default;
+
+$body-color                 : #282828 !default;
+$background-color           : #002b36 !default;
+$code-background-color      : $lighter-gray !default;
+$code-background-color-dark : $light-gray !default;
+$text-color                 : $dark-gray !default;
+$border-color               : $lighter-gray !default;
+
+$primary-color              : $gray !default;
+$success-color              : #98971a !default;
+$warning-color              : #d65d0e !default;
+$danger-color               : #fb4934 !default;
+$info-color                 : #689d6a !default;
+
+/* links */
+$link-color                 : $info-color !default;
+$link-color-hover           : mix(#928374, $link-color, 25%) !default;
+$link-color-visited         : mix(#fbf1c7, $link-color, 25%) !default;
+$masthead-link-color        : $primary-color !default;
+$masthead-link-color-hover  : mix(#689d6a, $primary-color, 25%) !default;
+
+/* notices */
+$notice-background-mix: 90% !default;
+$code-notice-background-mix: 95% !default;
+
+/* Header font size */
+@mixin header-font {
+    color                      : #fe8019;
+};
+
+$emphasis-font: (
+    "bold":                #d65d0e,
+    "italics":        #d3869b,
+    "underline":      #d3869b,
+    "strikethrough":  #bi6286
+);
+$blockquote:(
+   "color": #504945
+);
+            $border:(
+    volor: #282828
+);
