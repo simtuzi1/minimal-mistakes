@@ -32,7 +32,6 @@ h6 {
   font-family: $header-font-family;
   font-weight: bold;
   color: black;
-  @include header-font;
 }
 
 em {
