@@ -33,17 +33,14 @@ $masthead-link-color-hover  : mix(#689d6a, $primary-color, 25%) !default;
 $notice-background-mix: 90% !default;
 $code-notice-background-mix: 95% !default;
 
-/* Header font size */
-@mixin header-font {
-    color                      : #fe8019;
-};
-
+/*
 $emphasis-font: (
     "bold":                #d65d0e,
     "italics":        #d3869b,
     "underline":      #d3869b,
     "strikethrough":  #bi6286
 );
+ */
 $blockquote:(
     "color": #504945
 );
