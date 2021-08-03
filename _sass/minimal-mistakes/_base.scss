@@ -31,8 +31,7 @@ h6 {
   line-height: 1.22;
   font-family: $header-font-family;
   font-weight: bold;
-  color: black;
-  @include $header-font;
+  color: $header-font-color;
 }
 
 em {

@@ -34,9 +34,8 @@ $notice-background-mix: 90% !default;
 $code-notice-background-mix: 95% !default;
 
 /* Header font size */
-@mixin header-font {
-    color                      : #fe8019;
-};
+
+$header-font-color          : #fe8019;
 
 $emphasis-font: (
     "bold":                #d65d0e,
