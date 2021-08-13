@@ -4,23 +4,23 @@
 
 /* Colors */
 $gray                       : #fbf1c7 !default;
-$dark-gray                  : mix(#ebdbb2, $gray, 40%) !default;
-$darker-gray                : mix(#d5c4a1, $gray, 60%) !default;
+$dark-gray                  : mix(#eeeee5, $gray, 40%) !default;
+$darker-gray                : mix(#28303c, $gray, 60%) !default;
 $light-gray                 : mix(#bdae93, $gray, 50%) !default;
 $lighter-gray               : mix(#a89984, $gray, 90%) !default;
 
-$body-color                 : #00212b!default;
-$background-color           : #002b36 !default;
+$body-color                 : #161613 !default;
+$background-color           : #272822 !default;
 $code-background-color      : $lighter-gray !default;
 $code-background-color-dark : $light-gray !default;
 $text-color                 : $dark-gray !default;
 $border-color               : $lighter-gray !default;
 
 $primary-color              : $gray !default;
-$success-color              : #98971a !default;
-$warning-color              : #d65d0e !default;
-$danger-color               : #fb4934 !default;
-$info-color                 : #689d6a !default;
+$success-color              : #a6e22e !default;
+$warning-color              : #e77018 !default;
+$danger-color               : #bc1d23!default;
+$info-color                 : #54a8b6!default;
 
 /* links */
 $link-color                 : $info-color !default;
@@ -34,17 +34,18 @@ $notice-background-mix: 90% !default;
 $code-notice-background-mix: 95% !default;
 
 /* Header font size */
-$header-font-color          :#0d6dcd;
+
+$header-font-color          : #df264a;
 
 $emphasis-font: (
-    "bold":                #d65d0e,
-    "italics":        #d3869b,
-    "underline":      #d3869b,
-    "strikethrough":  #bi6286
+    "bold":               #e1901f,
+    "italics":        #e1901f,
+    "underline":      #e1901f,
+    "strikethrough":  #e1901f
 );
 $blockquote:(
-   "color": #504945
+    "color": #c1beb8;
 );
             $border:(
-    volor: #282828
+    color: #e95678;
 );
