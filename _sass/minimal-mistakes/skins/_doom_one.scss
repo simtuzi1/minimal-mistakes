@@ -1,0 +1,56 @@
+/* ==========================================================================
+   Gruvbox skin
+   ========================================================================== */
+
+/* Colors */
+$gray                       : #dcaeea !default;
+$dark-gray                  : mix(#a39c91, $gray, 40%) !default;
+$darker-gray                : mix(#a39c91, , $gray, 60%) !default;
+$light-gray                 : mix(#a39c91, , $gray, 50%) !default;
+$lighter-gray               : mix(#a39c91, , $gray, 90%) !default;
+
+$body-color                 : #282c34 !default;
+$background-color           : #1d2026 !default;
+$code-background-color      : $lighter-gray !default;
+$code-background-color-dark : $light-gray !default;
+$text-color                 : $dark-gray !default;
+$border-color               : $lighter-gray !default;
+
+$primary-color              : $gray !default;
+$success-color              : #7ebb65 !default;
+$warning-color              : #f26b67 !default;
+$danger-color               : #f26b67 !default;
+$info-color                 : #428fd2 !default;
+
+/* links */
+$link-color                 : $info-color !default;
+$link-color-hover           : mix(#928374, $link-color, 25%) !default;
+$link-color-visited         : mix(#fbf1c7, $link-color, 25%) !default;
+$masthead-link-color        : $primary-color !default;
+$masthead-link-color-hover  : mix(#689d6a, $primary-color, 25%) !default;
+
+/* notices */
+$notice-background-mix: 90% !default;
+$code-notice-background-mix: 95% !default;
+
+/* Header font size */
+
+$header1-font-color          : #50afef;
+$header2-font-color          : #9e76dd;
+$header3-font-color          : #a9a1e0;
+$header4-font-color          : #7ac2f3
+$header5-font-color          : #d499e5;
+$header6-font-color          : #a4d7f7;
+
+$emphasis-font: (
+    "bold":           #bac1c2,
+    "italics":        #bac1c2,
+    "underline":      #bac1c2,
+    "strikethrough":  #bac1c2
+);
+$blockquote:(
+    "color": #bbc2cf
+);
+            $border:(
+    color: #e95678
+);

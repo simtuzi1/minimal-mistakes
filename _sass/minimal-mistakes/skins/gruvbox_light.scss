@@ -3,14 +3,14 @@
    ========================================================================== */
 
 /* Colors */
-$gray                       : #7b8e90 !default;
-$dark-gray                  : mix(#ebdbb2, $gray, 40%) !default;
-$darker-gray                : mix(#d5c4a1, $gray, 60%) !default;
-$light-gray                 : mix(#bdae93, $gray, 50%) !default;
-$lighter-gray               : mix(#a89984, $gray, 90%) !default;
+$gray                       : ##3e3e34 !default;
+$dark-gray                  : mix(#282828, $gray, 40%) !default;
+$darker-gray                : mix(#3c3836, $gray, 60%) !default;
+$light-gray                 : mix(#504945, $gray, 50%) !default;
+$lighter-gray               : mix(#665c54, $gray, 90%) !default;
 
-$body-color                 : #00212b!default;
-$background-color           : #002b36 !default;
+$body-color                 : #ebdbb2 !default;
+$background-color           : #fbf1c7 !default;
 $code-background-color      : $lighter-gray !default;
 $code-background-color-dark : $light-gray !default;
 $text-color                 : $dark-gray !default;
@@ -20,7 +20,7 @@ $primary-color              : $gray !default;
 $success-color              : #98971a !default;
 $warning-color              : #d65d0e !default;
 $danger-color               : #fb4934 !default;
-$info-color                 : #228ad2 !default;
+$info-color                 : #689d6a !default;
 
 /* links */
 $link-color                 : $info-color !default;
@@ -34,22 +34,24 @@ $notice-background-mix: 90% !default;
 $code-notice-background-mix: 95% !default;
 
 /* Header font size */
-$header1-font-color          : #268bd2;
-$header2-font-color          : #849214;
-$header3-font-color          : #35a69c;
-$header4-font-color          : #1d6fa8;
-$header5-font-color          : #627900;
-$header6-font-color          : #29847c;
+
+$header1-font-color          : #1e99aa;
+$header2-font-color          : #e19b1d;
+$header3-font-color          : #8f3f71;
+$header4-font-color          : #9d0006;
+$header5-font-color          : #91760e;
+$header6-font-color          : #457b58;
 
 $emphasis-font: (
-    "bold":                #7d9496,
-    "italics":        #7d9496,
-    "underline":      #7d9496,
-    "strikethrough":  #bi6286
+    "bold":                #2a2928,
+    "italics":        #2a2928,
+    "underline":      #2a2928,
+    "strikethrough":  #2a2928
 );
 $blockquote:(
-    "color": #80917d
+    "color": #504945
 );
 $border:(
     color: #282828
 );
+282828

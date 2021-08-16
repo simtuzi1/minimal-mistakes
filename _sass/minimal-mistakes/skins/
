@@ -3,24 +3,24 @@
    ========================================================================== */
 
 /* Colors */
-$gray                       : #fbf1c7 !default;
-$dark-gray                  : mix(#eeeee5, $gray, 40%) !default;
+$gray                       : #7b8e90 !default;
+$dark-gray                  : mix(#ebdbb2, $gray, 40%) !default;
 $darker-gray                : mix(#d5c4a1, $gray, 60%) !default;
 $light-gray                 : mix(#bdae93, $gray, 50%) !default;
 $lighter-gray               : mix(#a89984, $gray, 90%) !default;
 
-$body-color                 : #161613 !default;
-$background-color           : #272822 !default;
+$body-color                 : #00212b!default;
+$background-color           : #002b36 !default;
 $code-background-color      : $lighter-gray !default;
 $code-background-color-dark : $light-gray !default;
 $text-color                 : $dark-gray !default;
 $border-color               : $lighter-gray !default;
 
 $primary-color              : $gray !default;
-$success-color              : #a6e22e !default;
-$warning-color              : #e77018 !default;
+$success-color              : #98971a !default;
+$warning-color              : #d65d0e !default;
 $danger-color               : #fb4934 !default;
-$info-color                 : #689d6a !default;
+$info-color                 : #228ad2 !default;
 
 /* links */
 $link-color                 : $info-color !default;
@@ -34,18 +34,22 @@ $notice-background-mix: 90% !default;
 $code-notice-background-mix: 95% !default;
 
 /* Header font size */
-
-$header-font-color          : #fe8019;
+$header1-font-color          : #268bd2;
+$header2-font-color          : #849214;
+$header3-font-color          : #35a69c;
+$header4-font-color          : #1d6fa8;
+$header5-font-color          : #627900;
+$header6-font-color          : #29847c;
 
 $emphasis-font: (
-    "bold":                #d65d0e,
-    "italics":        #d3869b,
-    "underline":      #d3869b,
-    "strikethrough":  #bi6286
+    "bold":                #7d9496,
+    "italics":        #7d9496,
+    "underline":      #7d9496,
+    "strikethrough":  #7d9496
 );
 $blockquote:(
-    "color": #504945
+    "color": #80917d
 );
-            $border:(
+$border:(
     color: #282828
 );

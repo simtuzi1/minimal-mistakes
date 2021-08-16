@@ -35,13 +35,18 @@ $code-notice-background-mix: 95% !default;
 
 /* Header font size */
 
-$header-font-color          : #fe8019;
+$header1-font-color          : #d3869a;
+$header2-font-color          : #89b474;
+$header3-font-color          : #b8bb26;
+$header4-font-color          : #c39dab;
+$header5-font-color          : #8db58f;
+$header6-font-color          : #cdb5c3;
 
 $emphasis-font: (
-    "bold":                #d65d0e,
-    "italics":        #d3869b,
-    "underline":      #d3869b,
-    "strikethrough":  #bi6286
+    "bold":            #ebd9a1,
+    "italics":        #ebd9a1,
+    "underline":      #ebd9a1,
+    "strikethrough":  #ebd9a1
 );
 $blockquote:(
     "color": #504945
