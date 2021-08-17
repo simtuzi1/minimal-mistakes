@@ -3,7 +3,7 @@
    ========================================================================== */
 
 /* Colors */
-$gray                       : ##3e3e34 !default;
+$gray                       : #3e3e34 !default;
 $dark-gray                  : mix(#282828, $gray, 40%) !default;
 $darker-gray                : mix(#3c3836, $gray, 60%) !default;
 $light-gray                 : mix(#504945, $gray, 50%) !default;
@@ -54,4 +54,3 @@ $blockquote:(
 $border:(
     color: #282828
 );
-282828
