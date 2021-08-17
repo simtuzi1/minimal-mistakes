@@ -1,0 +1,58 @@
+/* ==========================================================================
+   Dracula skin
+   ========================================================================== */
+
+/* Colors */
+$gray                       : #f4c1dc !default;
+$dark-gray                  : mix(#f3f8f2, $gray, 40%) !default;
+$darker-gray                : mix(#f3f8f2, $gray, 60%) !default;
+$light-gray                 : mix(#f3f8f2, $gray, 50%) !default;
+$lighter-gray               : mix(#f3f8f2, $gray, 90%) !default;
+
+$body-color                 : #282a36 !default;
+$background-color           : #252631 !default;
+$code-background-color      : $lighter-gray !default;
+$code-background-color-dark : $light-gray !default;
+$text-color                 : $dark-gray !default;
+$border-color               : $lighter-gray !default;
+
+$primary-color              : $gray !default;
+$success-color              : #98971a !default;
+$warning-color              : #d65d0e !default;
+$danger-color               : #fb4934 !default;
+$info-color                 : #689d6a !default;
+
+/* links */
+$link-color                 : $info-color !default;
+$link-color-hover           : mix(#928374, $link-color, 25%) !default;
+$link-color-visited         : mix(#fbf1c7, $link-color, 25%) !default;
+$masthead-link-color        : $primary-color !default;
+$masthead-link-color-hover  : mix(#689d6a, $primary-color, 25%) !default;
+
+/* notices */
+$notice-background-mix: 90% !default;
+$code-notice-background-mix: 95% !default;
+
+/* Header font size */
+
+$header1-font-color          : #ff79c6;
+$header2-font-color          : #bb93f9;
+$header3-font-color          : #cdb7fa;
+$header4-font-color          : #e48eba;
+$header5-font-color          : #e4d3fc;
+$header6-font-color          : #efc6e7;
+
+$emphasis-font: (
+    "bold":          #f2eddb,
+    "italics":       #f2eddb,
+    "underline":     #f2eddb,
+    "strikethrough": #f2eddb
+);
+
+$blockquote:(
+    "color": #bc8eb6
+);
+
+$border:(
+    color: #a89984
+);

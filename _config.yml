@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll-terminal-skins"
 # remote_theme           : "simtuzi1/minimal-mistakes"
-minimal_mistakes_skin    : "gruvbox" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "gruvbox"
+minimal_mistakes_skin    : "gruvbox" # "default", "monokai", "solarized", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "gruvbox"
 
 # Site Settings
 locale                   : "en-US" # "fi-FI"
