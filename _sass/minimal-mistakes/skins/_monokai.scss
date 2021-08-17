@@ -3,7 +3,7 @@
    ========================================================================== */
 
 /* Colors */
-$gray                       : #fbf1c7 !default;
+$gray                       : #e3e2e3 !default;
 $dark-gray                  : mix(#eeeee5, $gray, 40%) !default;
 $darker-gray                : mix(#28303c, $gray, 60%) !default;
 $light-gray                 : mix(#bdae93, $gray, 50%) !default;
@@ -25,7 +25,7 @@ $info-color                 : #54a8b6!default;
 /* links */
 $link-color                 : $info-color !default;
 $link-color-hover           : mix(#928374, $link-color, 25%) !default;
-$link-color-visited         : mix(#fbf1c7, $link-color, 25%) !default;
+$link-color-visited         : mix(#e3e2e3 , $link-color, 25%) !default;
 $masthead-link-color        : $primary-color !default;
 $masthead-link-color-hover  : mix(#689d6a, $primary-color, 25%) !default;
 
